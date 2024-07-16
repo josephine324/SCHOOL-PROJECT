@@ -35,7 +35,7 @@ function Login() {
        localStorage.setItem('token', token);
 
        // Navigate to home page or any other authenticated route
-       navigate('/home');
+       navigate('/Welcome');
        
       } else {
         // No user found with matching credentials

@@ -38,7 +38,7 @@ function Signup() {
    
      const token = generateToken();
      localStorage.setItem('token', token);
-     navigate('/home');
+     navigate('/Welcome');
     } catch (error) {
       setError('Error signing up: ' + error.message);
     } finally {
